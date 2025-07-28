@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+   
+}
+.main{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(141,5,79);
+    font-family:sans-serif;
+}
+
+.p1{
+    
+    text-align: center;
+    justify-content: center;
+}
+.p1 p{
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 0.5;
+    padding-top: 20px;
+}
+.p1 h3{
+    font-size: 25px;
+    padding-top: 7px;
+    color: whitesmoke;
+    font-weight: 200;
+    
+}
+.BOX{
+    height: 200px;
+    width: 100%;
+    /* background-color: rgb(73, 159, 234); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.BOX1{
+    height: 200px;
+    width: 200px;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 13px;
+    cursor: pointer;
+
+}
+.BOX1 i{
+    font-size: 50px;
+    opacity: 0.7;
+    padding-top: 20px;
+    
+}
+
+.BOX1 h4{
+    font-size: 25;
+    font-weight: 200;
+    opacity: 0.9;
+    margin-top: 18px;
+    margin-left: 15px;
+
+
+}
+.BOX1 P{
+    font-weight: 100;
+    opacity:0.7 ;
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+.BOX :hover{
+    background-color: rgb(162, 53, 113); 
+    
+}
